@@ -1,6 +1,6 @@
 [package]
 name = "rpgdk"
-version = "1.0.1"
+version = "1.0.2"
 authors = ["Chris Miller <crates@chrmi.com>"]
 edition = "2018"
 description = "A Roll-Playing Game Development Kit suited for (but not limited to) text adventure games."
