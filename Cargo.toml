@@ -1,6 +1,6 @@
 [package]
 name = "rpgdk"
-version = "1.0.2"
+version = "1.0.3"
 authors = ["Chris Miller <crates@chrmi.com>"]
 edition = "2018"
 description = "A Roll-Playing Game Development Kit suited for (but not limited to) text adventure games."
@@ -9,7 +9,7 @@ homepage = "http://rpgdk.com"
 repository = "https://github.com/chrmi/rpgdk"
 readme = "README.md"
 keywords = ["rpg", "games", "gaming", "tools", "sdk"]
-categories = ["game development", "game engines", "games", "development tools"]
+categories = ["game-development", "game-engines", "games", "development-tools"]
 
 [dependencies]
 rand = "0.7.2"
