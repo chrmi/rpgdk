@@ -1,0 +1,8 @@
+[package]
+name = "rpgdk"
+version = "1.0.0"
+authors = ["Roll-Playing Game Development Kit <crates@chrmi.com>"]
+edition = "2018"
+
+[dependencies]
+rand = "0.7.2"
