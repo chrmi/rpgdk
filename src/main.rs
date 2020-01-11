@@ -1,4 +1,6 @@
 use rpgdk::player;
+use rpgdk::reader;
+
 use std::env;
 
 fn intro() {
@@ -23,8 +25,9 @@ fn main() {
             name = String::from(&args[1])
         }
         _ => {
-            println!("... No name?  You shall be called... Delza!");
-            name = String::from("Delza")
+            let names = reader::read_file("names.txt");
+            name = String::from(reader::random_word(&names));
+            println!("... No name?  You shall be called... {}!", name);
         }
     }
 

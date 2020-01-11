@@ -13,7 +13,6 @@
 		<style type="text/css">
 			body {
 				background:#001500;
-				margin-top:10px;
 			}
 			.navbar-custom, 
 			.navbar-custom a, 
@@ -44,6 +43,12 @@
 			}
 			a:active, a:hover {
 				color:#0f0;
+			}
+
+			@media only screen and (max-width: 800px) {
+				body, html {
+					margin-top:35px;
+				}
 			}
 		</style>
 	</head>
@@ -86,8 +91,9 @@
 						<p><a class="btn btn-success" href="https://github.com/chrmi/rpgdk/blob/dev/src/player/mod.rs" role="button">Source &raquo;</a></p>
 					</div>
                     <div class="col-md-4">
-                        <h2>...</h2>
-                        <p>More features coming soon.</p>
+                        <h2>Reader</h2>
+                        <p>Read game configuration from a file, pick random values from it.</p>
+                        <p><a class="btn btn-success" href="https://github.com/chrmi/rpgdk/blob/dev/src/reader/mod.rs" role="button">Source &raquo;</a></p>
                     </div>
 			    </div>
 			    <hr>
