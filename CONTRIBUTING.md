@@ -3,10 +3,10 @@
 * Use [issues](https://github.com/chrmi/rpgdk/issues) to suggest a fix or new feature before jumping in.
 * Possibly wait a bit for a response, or ping [@\_chrmi](https://twitter.com/_chrmi)
 
-##👷 Contributing 🚧
+## 👷 Contributing 🚧
 * Fork
 * Write tests
-* Make tests pass
+* Pass tests
 * Document
 * Commit
 * Rebase
