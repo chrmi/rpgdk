@@ -1,12 +1,36 @@
 use std::fs;
 use rand::Rng;
 
+/// # Reads file and returns contents as a string
+///
+/// # Arguments
+///
+/// * ```file_name``` - Name of the file (with path)
+///
+/// # Example
+///
+/// ```
+/// // Assumes names.txt is in the same folder as app.
+/// let names = reader::read_file("names.txt");
+/// ```
 pub fn read_file(file_name: &str) -> String {
     let contents = fs::read_to_string(file_name)
         .expect("Error reading the file with file_read.");
     contents
 }
 
+/// # Picks a random substring between spaces
+///
+/// # Arguments
+///
+/// * ```file_contents``` - A string from a file (or not).
+///
+/// # Example
+///
+/// ```
+/// // Assume names is string of values separated by spaces, i.e. "Delza Dezla Zedla".
+/// let name = String::from(reader::random_word(&names));
+/// ```
 pub fn random_word(file_contents: &str) -> String {
     let mut words: Vec<String> = Vec::new();
 

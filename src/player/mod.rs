@@ -1,5 +1,6 @@
 use super::dice;
 
+/// # State container for the player.
 pub struct Player {
     pub name: String,
     pub level: i16,
@@ -7,6 +8,7 @@ pub struct Player {
     pub y: i16,
 }
 
+/// # Actions the Player can take in a given turn.
 impl Player {
     pub fn move_xy(&mut self, x: i16, y: i16) {
         self.x += x;
