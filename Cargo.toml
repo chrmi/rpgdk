@@ -1,13 +1,13 @@
 [package]
 name = "rpgdk"
-version = "1.2.3"
+version = "1.2.4"
 authors = ["Chris Miller <crates@chrmi.com>"]
 edition = "2018"
 description = "A Roll-Playing Game Development Kit suited for (but not limited to) text adventure games."
 license = "MIT"
 homepage = "http://rpgdk.com"
 repository = "https://github.com/chrmi/rpgdk"
-documentation = "https://docs.rs/rpgdk/1.2.1/rpgdk/"
+documentation = "https://docs.rs/rpgdk/"
 readme = "README.md"
 keywords = ["rpg", "games", "gaming", "tools", "sdk"]
 categories = ["game-development", "game-engines", "games", "development-tools"]
