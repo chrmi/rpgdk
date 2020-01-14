@@ -1,5 +1,6 @@
 use rand::Rng;
 
+/// # Representation of each common dice type
 pub enum Dice {
     D4(i16, i16),
     D6(i16, i16),
@@ -9,6 +10,19 @@ pub enum Dice {
     D20(i16, i16),
 }
 
+/// # Calculates common dice roll total, per dice type.
+///
+/// # Arguments
+///
+/// * `count` - Total number of dice.
+/// * `bias` - Single value representing adjusted modifiers.
+///
+/// # Example
+///
+/// ```
+/// // Roll two D20 dice, each with a -2 chance of success
+/// let roll = dice::roll(dice::Dice::D20(4, -2));
+/// ```
 pub fn roll(d: Dice) -> i16 {
     match d {
         Dice::D4(count, bias) => (
